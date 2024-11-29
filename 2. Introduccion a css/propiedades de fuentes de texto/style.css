@@ -1,0 +1,65 @@
+body{
+    /*color del cuerpo de la pagina en color negro*/
+    background-color: black; 
+}
+
+a{
+    color: aliceblue; /*color de texto del hypervinculo*/
+    font-family: Impact; /*tipografia del texto del hypervinculo*/
+    text-decoration: none; /*subrayado del texto*/
+}
+
+.apartado1{
+    /*color de la etiqueta div con nombre "apartado1"*/
+    background-color: darkgoldenrod;
+    /*tamaño del ancho del elemento*/
+    width: 500px;
+}
+
+.titulo1{
+    color: beige; /*color del texto*/
+    font-family: "Handjet"; /*tipografias de texto*/
+    font-size: 200%; /*tamaño del texto*/
+    font-weight:700; /*cantidad de grosor o negrita del texto*/
+    font-style: normal;/*inclinado o cursiva del texto*/
+    text-align: center; /*alineacion del texto*/
+    text-decoration: underline; /*subrayado de texto*/
+    text-transform: capitalize;/*capitalizar, convertir en mayuscula o minuscula el texto*/
+    letter-spacing: 3px; /*espaciado entre las letras del texto*/
+    padding: 10px;
+}
+
+.apartado2{
+    background-color: slategrey; /*color del elemento*/
+    width: 500px; /*ancho del elemento*/
+    margin: auto;
+}
+
+.titulo2{
+    background-color: burlywood;
+    width: 480px;
+    text-align: center; /*alineacion del texto*/
+    color:goldenrod; /*color del texto*/
+    font-family: "Handjet"; /*tipografias del texto, si hay tipografias que tienen espacio como "Gill Sans", se le debe poner en comillas */
+    font-size: 300%; /*tamaño del texto*/
+    font-style: normal; /*inclinado o cursiva del texto*/
+    letter-spacing: 5px; /*espaciado entre letras del texto*/
+    font-weight: 200; /*cantidad de grosor o negrita al text*/
+    text-decoration: overline underline; /*subrayado del texto hacia arriba*/
+    padding: 10px;
+    margin: 0;
+}
+.text2{
+    color:aliceblue; /*color del texto*/
+    font-family: "Handjet Bold"; /*tipografia del texto*/
+    font-size: 150%; /*tamaño del texto*/
+    font-weight: 900; /*cantidad de grosor del texto*/
+    font-style: normal; /*tipo de inclinado o cursiva del texto*/
+    text-align:justify; /*alineacion del texto*/
+    text-decoration: underline; /*subrayado del texto hacia abajo*/
+    text-transform: capitalize; /*conversion del texto a capitalizado, mayuscula o minuscula*/
+    letter-spacing: 1px; /*espaciado entre letras del texto*/
+    line-height: 1.4; /*espaciado entre lineas de texto*/
+    padding: 15px;    
+    margin: 0;
+}

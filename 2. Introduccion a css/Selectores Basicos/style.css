@@ -1,0 +1,61 @@
+/*seleccion por elementos: escribimos una etiqueta para agregar estilo a todas las etiquetas que se llamen igual  
+por ejemplo body y div*/
+body{
+    background-color: black;
+}
+div{
+    background-color:brown;
+    height: 50px;
+    width: 400px;
+}
+
+/*seleccion de elementos mediante clases: se le asigna un nombre de clase mediante
+el atributo "class" para asignarle estilos a una o a muchas etiquetas que tengan una clase en 
+comun por ejemplo: todas las etiquetas que tengan la clase "menu" se modificaran al estilo asignado 
+en la clase ".menu" en el archivo de estilos */
+.division{
+    background-color: yellow;
+    height: 50px;
+    width: 400px;
+}
+
+.menu{
+    margin-top: 0;
+    background-color: aqua;
+    height: 50px;
+    width: 400px;
+}
+
+p.menu{
+    background-color: blue;
+    width: 100px;
+}
+
+/*seleccion de elementos mediante id's: se le asigna un id a un elemento clave para asignarle diseño, 
+ese mismo id no podra ser usdado por otro elemento de la pagina*/
+#greeting{
+    background-color: red;
+    height: 50px;
+    width: 400px;
+    margin: 0;
+}
+
+#id1{
+    background-color: chartreuse;
+    height: 50px;
+    width: 400px;
+}
+
+#id2{
+    background-color: tomato;
+    height: 50px;
+    width: 400px;
+}
+
+#id3{
+    background-color: blueviolet;
+    height: 50px;
+    width: 400px;
+}
+
+

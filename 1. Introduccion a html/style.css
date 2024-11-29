@@ -1,0 +1,40 @@
+li{
+    color:coral;
+}
+
+.title{
+    font-family: 'Gill Sans';
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: underline;
+    color: darkred;
+    text-align: center;
+}
+
+.text{
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+    background-color: blueviolet;
+    padding: 10px 0 10px 20px;
+    border-style:outset;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+body{
+    background-color: black;
+}
+
+.intro{
+    font-family: sans-serif;
+    color:whitesmoke;
+}
+
+.paragraph{
+    font-family: sans-serif;
+    font-size: 100px;
+    text-decoration: underline;
+}

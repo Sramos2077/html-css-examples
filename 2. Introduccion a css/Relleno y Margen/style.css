@@ -1,0 +1,55 @@
+/*padding: es el relleno o espacio que se aplica  
+eentre el contenido o texto y el borde del elemento*/
+
+/*margen: la separacion que se aplica fuera del elemento de otros elementos*/
+
+body{
+    background-color: black;
+}
+
+.box1{ 
+    background-color: gray;
+    font-family: Impact;
+    color: whitesmoke;
+    text-transform: uppercase;
+    width: 500px;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.box2{
+    background-color: darkgoldenrod;
+    font-family: "Calibri";
+    color: whitesmoke;
+    text-transform: lowercase;
+    width: 500px;
+    padding: 30px 0px 30px 80px;
+    margin-bottom: 10px;
+}
+
+.box3{
+    background-color: darkorange;
+    font-family: sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+    width: 20%;
+    padding: 100px 100px;
+}
+
+.formulario{
+    background-color: burlywood;
+    padding: 30px;
+}
+
+.formulario_input{
+    padding: 10px;
+    margin: 5px 5px 5px 25%;
+    width: 50%;
+    border-style: groove;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: violet;
+    color: aliceblue;          ;
+}

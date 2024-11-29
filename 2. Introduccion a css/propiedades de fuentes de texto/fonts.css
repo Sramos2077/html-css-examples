@@ -1,0 +1,13 @@
+/*Declaracion de tipografias externas*/
+
+@font-face {
+    font-family: "Handjet";
+    src: url(extern-tipografy/Handjet/static/Handjet-Regular.ttf) format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Handjet Bold";
+    src: url(extern-tipografy/Handjet/static/Handjet-Bold.ttf) format("truetype");
+    font-weight: 900;
+}

@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+.titulo{
+    font-family: "Roboto";
+    color: antiquewhite;
+    margin-bottom:10px ;
+    text-align: center;
+}
+
+.apartado1{
+    background-color: darkolivegreen;
+    height: 250px;
+    width: 500px;
+    margin: auto; /*margen centrado del elemento*/
+    border-width: 5px; /*tamaño del borde*/
+    border-style: solid; /*estilo de borde*/
+    border-color: transparent; /*color de borde*/
+    border-radius: 10px; /*redondeado del borde*/
+}
+
+.forms{
+    background-color: yellowgreen;
+    padding: 20px;
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.inputs1{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid black;
+}

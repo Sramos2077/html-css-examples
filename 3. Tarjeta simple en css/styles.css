@@ -1,0 +1,59 @@
+body{
+    background-color: black; /*asignamos el color negro a toda la pagina*/
+}
+.card{
+    background-color:blueviolet; /*asignacion del color del elemento de clase card*/
+    width: 600px; /*tamaño de ancho del elemento*/
+    margin: auto; /*margen centrado del elemento*/
+    margin-top: 20px; /*margen separado de la parte de arriba del elemento*/
+    border-style:solid; /*asignacion de borde del elemento de estilo solido*/
+    border-width: 5px; /*asignacion del tamaño del borde*/
+    border-color:gray; /*color del borde*/
+    border-bottom-left-radius:20px; /*redondeo del borde de abajo del elemento hacia la izquierda*/
+    border-top-right-radius: 50px; /*redondeo del borde del elemento de arriba hacia la izquierda*/
+}
+
+.first-paragraph, .title, .subtitle{
+    font-family: sans-serif; /*tipografia del texto del titulo, subtitulo y el parrafo*/
+    color:black; /*color de los textos*/
+    text-align: center; /*alineacion de los textos*/
+    text-transform: capitalize; /*agregar estilo de texto capitalizado osease mayusculas y minusculas*/
+}
+
+.title{
+    padding-top: 10px; /*asignacion relleno de la parte de arriba del elemento y el borde*/
+    font-size: 22px; /*tamaño del titulo*/
+    font-weight: 100; /*asignacion de negrita del titulo*/
+    margin: 0; /*cero margen de separacion entre el titulo y los demas elementos*/
+}
+
+.subtitle{
+    font-size: 14px; /*tamaño del texto*/
+    font-weight: 100; /*tamaño de la negrita del texto*/
+    letter-spacing: 5px; /*espciado de las letras del subtitulo*/
+    text-decoration: underline; /*asignacion de decoracion del texto con subrayado abajo del texto*/
+}
+
+.first-paragraph{
+    font-size: 15px; /*tamaño del texto*/
+    padding: 60px; /*asignacion de relleno entre el texto y el elemento*/
+    background-color:chartreuse; /*asignacion del color del elemento*/
+    text-align:justify; /*asignando justificado al texto del parrafo*/
+    height: 100px;
+}
+
+.borders{
+    text-align: center;
+    background-color: red;
+    color: aliceblue;
+    height: 400px;
+    width: 400px;
+    padding: 5px;
+    margin-top: 10px;
+    border-top:5px solid yellow;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid grey;
+    border-right: 5px solid purple;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

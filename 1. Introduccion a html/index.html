@@ -1,0 +1,53 @@
+<!DOCTYPE html> <!--etiquetando que la pagina sera formato HTML-->
+<html lang="en"> <!---inicializacion de la pagina html-->
+    <head> <!--etiqueta donde se escribe informacion de la pagina-->
+        <title>First Page Web</title><!---se asigna nombre de la pagina para la pestaña del buscador-->
+        
+        <link rel="stylesheet" href="style.css"> <!--vinculando un archivo con la etiqueta <link> y el atributo "rel" especifica que tipo de documento se relacionara con la pagina web que es "stylesheet" que significa "hoja de cascada" para diseño de la pagina y href="para asignar la direccion de la carpeta del archivo del archivo" o url del mismo-->
+
+        <link rel="icon" href="images\favicon.png"> <!--vinculando con la etiqueta <link> un archivo especificando con el atributo "rel" que va ser icono de la pestaña de la pagina y con el atributo "href" especificando la direccion del archivo-->
+    </head> 
+    
+    <body> <!--apertura del cuerpo de la pagina-->
+        <h1 class="intro">Menu Meals of all of the restaurant of <span class="title">Dallas, Texas.</span></h1> <!--declaracion de titulo con <h1> y asignando estilo con el contenedor <span> que sirve como contenedor de diseño para texto--> 
+        
+    <!--
+    1. con la etiqueta <img> se asigna imagenes desde la web o directorio de carpetas, le atributo "src" se asigna la direccion url o directorio del archivo donde esta la imagen.
+    2. el atributo "alt" sirve para cuando la imagen no puede ser resolucionada por el navegador, se mostrara un texto de remplazo.
+    3. el atributo "title" sirve para mostrar una descripcion en la imagen en el momento que el mouse o cursor apunta a la imagen. -->
+        <img src="images\VisitDallas.png" alt=" Visit Dallas Logo" title="Dallas, TX, Where the behavior never sleeps">
+        
+        <div class="text">     
+            <p class="paragraph">
+                enjoy with these meals of each restaurant of city of Dallas,TX. 
+                choose one of them and enjoy it.
+            </p>
+        </div>
+        <h2>Choose one of our Restaurants and enjoy the Menus of them.</h2> <!--subtitulo-->
+        
+        <!--Listas Desordenadas son las listas que no tienen un numero consecutivo, solamente se muestran por puntos-->
+        <ul>
+            <!--el atributo target sirve para abrir el enlace ya sea en la misma pestaña o en otra, 
+            ai ponemos _self se abrira en la misma pestaña y si ponemos  _blank se abrira en otra pestaña-->
+            <!-- El Atributo "title" sirve para dar una descripcion al apuntar con el mause a una propiedad de la pagina-->
+            <li><a href="church_chicken_index.html" target="_self" title="Church chicken Restaurant">Church Chicken</a></li>
+            <li><a href="Kenny_Wood_index.html" target="_blank" title="Kenny's Wood Fired Grill Restaurant" >Kenny's Wood Fired Grill</a></li>
+            <li>Bishop Cidercade</li>
+        </ul>
+
+        <h3>Drinks</h3> <!--Subtitulos-->
+        <!--listas Ordenadas, en este etiqueta las listas son numeradas consecutivamente-->
+        <ol>
+            <!--en las listas se asigna enlaces con la 
+            etiqueta A y despues href que significa hyper
+            reference y asignamos el enlace externo de internet-->
+            <li>Coke</li>
+            <li>Diet Coke</li>
+            <li>Sprite</li>
+            <li>Coke Zero</li>
+            <li>CHURCH'S SOUTHERN SWEET TEA</li>
+        </ol>
+
+        <p><a href="form.html">comment us!</a></p>
+    </body>
+</html> <!--finalizacion de la pagina html-->

@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+.box{
+    box-sizing: border-box;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px;
+}
+
+.title{
+    font-family: sans-serif;
+    font-size:70%;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.box1{
+    box-sizing: border-box;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(192, 121, 213);
+    margin: 20px;
+}
+
+.box2{
+    box-sizing: border-box;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color:rgba(231, 44, 97, 0.8);
+    margin: 20px;
+}
+
+.box3{
+    box-sizing: border-box;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color:(#ef0000);
+    margin: 20px;
+}
+
+
+/*TIPOS DE COLORES:
+RGB: RED, GREEN & BLUE tiene 255 tipos de colores en cada uno de sus colores principales que son rojo, verde y azul por lo que exiten en total 16, 777 tipos de combinaciones con estos tres colores prncipales.
+*/

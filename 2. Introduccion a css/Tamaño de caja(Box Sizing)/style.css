@@ -1,0 +1,36 @@
+/*El atributo box-sizing: border-box se utiliza para ajustar cómo se calculan las dimensiones de un elemento. Al aplicarlo, el tamaño que se establece (por ejemplo, 100px de ancho y alto) incluye el contenido, los bordes y los rellenos (padding). Esto significa que los bordes y el padding no aumentarán el tamaño total del elemento, sino que se ajustarán dentro de los 100px especificados. En otras palabras, el ancho y el alto que defines serán las dimensiones finales del elemento, sin importar el grosor del borde o el tamaño del padding.*/
+
+/*<----Diferencias entre border-box y content-box----->*/
+/*
+content-box(calculo predeterminado de css):
+las medidas que uno le asigna al elemento, realmente se suman al contenido y no al elemento.
+Por ejemplo, si defines un ancho de 100px y luego le aplicas un padding de 10px y un borde de 5px, el tamaño total del elemento será:
+100px (contenido) + 10px (padding izquierdo) + 10px (padding derecho) + 5px (borde izquierdo) + 5px (borde derecho) = 130px de ancho total.
+*/
+/*
+Border-Box: Con border-box, el tamaño total del ancho es 200px (porque ya incluye el padding y el borde). El cálculo interno sería:
+Ancho del contenido: Ancho total − (Padding izquierdo + Padding derecho + Borde izquierdo + Borde derecho)
+Ancho del contenido: 200px − (20px + 20px + 10px + 10px)
+Ancho del contenido: 140px
+*/
+
+/* Con box-sizing: border-box, las dimensiones del contenido se ajustan automáticamente para que el tamaño total del elemento sea exactamente el que especificas, sin que el padding ni el borde aumenten el tamaño total.*/
+body{
+    margin: 0;
+}
+
+.box{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+}
+
+.box-one{
+    padding: 20px;
+    border: 20px solid black;
+}
+.box-two{
+    box-sizing: border-box;
+    padding: 20px;
+    border: 20px solid black;
+}
